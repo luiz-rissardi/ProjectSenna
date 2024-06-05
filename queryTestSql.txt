@@ -1,0 +1,14 @@
+
+SELECT * 
+FROM contact as C
+inner join User as Us
+on C.userId = us.userId
+where C.contactId = 1
+
+
+Select G...
+from groups as G
+inner join ChatData as Cd 
+inner join Chat as Ct 
+on cd.chatId = Ct.chatId
+where Cd.userId = 4 
